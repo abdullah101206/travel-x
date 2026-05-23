@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="w-full bg-[#0F172A] text-gray-200 border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
-       
+          {/* Logo & About */}
           <div>
             <h2 className="text-3xl font-bold text-white">
               Travel<span className="text-[#38BDF8]">X</span>
@@ -17,6 +17,7 @@ export default function Footer() {
               travel experiences designed for every traveler.
             </p>
 
+            {/* Social Icons */}
             <div className="flex items-center gap-4 mt-6">
               <a
                 href="https://royals-stay-hotel.netlify.app/"

@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="w-full bg-[#0F172A] text-gray-200 border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
-       
+          {/* Logo & About */}
           <div>
             <h2 className="text-3xl font-bold text-white">
               Travel<span className="text-[#38BDF8]">X</span>
@@ -17,6 +17,7 @@ export default function Footer() {
               travel experiences designed for every traveler.
             </p>
 
+            {/* Social Icons */}
             <div className="flex items-center gap-4 mt-6">
               <a
                 href="https://royals-stay-hotel.netlify.app/"
@@ -65,6 +66,7 @@ export default function Footer() {
             </div>
           </div>
 
+          {/* Quick Links */}
           <div>
             <h3 className="text-lg font-semibold text-white mb-5">
               Quick Links
@@ -86,6 +88,7 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Policies */}
           <div>
             <h3 className="text-lg font-semibold text-white mb-5">
               Policies
@@ -130,6 +133,7 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Contact Info */}
           <div>
             <h3 className="text-lg font-semibold text-white mb-5">
               Contact Info
@@ -144,6 +148,7 @@ export default function Footer() {
           </div>
         </div>
 
+        {/* Bottom Footer */}
         <div className="mt-14 border-t border-white/10 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-gray-400">
           <p className="text-center md:text-left">
             © 2026 TravelX. All rights reserved.
